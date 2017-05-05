@@ -22,7 +22,7 @@ while True:
         break
     
     else:
-        print('잘못 입력하였습니다.')
+        print('잘못 입력하였습니다.1에서 100가지 중 숫자를 입력해주세요.')
     if a > c:
         print('업')
 
