@@ -2,7 +2,7 @@ import random
 
 a = random.randint(1,100)
 
-v = 0
+l = []
 
 while True:
 
@@ -10,23 +10,28 @@ while True:
 
     b = input('') 
 
-    c = int ( b )
+    try:
+        c = int ( b )
+    except:
+        print('숫자로 입력하세요.')
+        continue
    
     if 100 >= c > 0:
-        v = v+1
+        if c in l:
+            print('이미 입력한 숫자입니다.')
+        else:
+            l.append(c)
         if a > c:
             print('업')
         if a < c:
             print('다운')
         if a == c:
             print('맞았습니다.')
-            print('%d번만에 맞히셧습니다' % v)
+            print('%d번만에 맞히셧습니다' % len(l))
+            break
     else:
-        print('1에서 100가지 중 숫자를 입력해주세요.')
+        print('오차범위 입니다.1에서 100 중 숫자를 써주세요.')
         
-        
-    
-            
 
     
 
