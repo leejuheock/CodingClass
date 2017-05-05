@@ -17,13 +17,10 @@ while True:
     if a == c:
         print('맞았습니다')
         print( '%d번만에 맞히셧습니다' % v )        
-        break
-<<<<<<< HEAD
-    
+   
     else:
         print('잘못 입력하였습니다.1에서 100가지 중 숫자를 입력해주세요.')
-=======
->>>>>>> parent of d983e3d... 업&다운
+
     if a > c:
         print('업')
 
