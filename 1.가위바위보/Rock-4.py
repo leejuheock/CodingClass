@@ -20,6 +20,41 @@ while True:
     if d == 0:
         print('게임이 끝납니다')
         break
+
+    if d == 1:
+        def gawi():
+            print('    *    *')
+            print('    *   *')
+            print('    *  *')
+            print('    * *')
+            print('    ***')
+            print('   ******')
+            print(' ********')
+            print('   *****')
+            print('    ***')
+    if d == 2:
+        def bawi():
+            print('')
+            print('')
+            print('')
+            print('')
+            print('    ***')
+            print('   ******')
+            print(' ********')
+            print('   *****')
+            print('    ***')
+    if d == 3:
+        def bo():
+            print('    *  *  ')
+            print('    *  *  *')
+            print('    *  *  * *')
+            print('    *  * * *')
+            print('*   * * * *')
+            print('**  ******')
+            print(' ********')
+            print('   *****')
+            print('    ***')
+  
     
     if a == d:
         print('비겻다')
