@@ -22,7 +22,7 @@ while True:
         break
 
     if d == 1:
-        def gawi():
+        def gawi ():
             print('    *    *')
             print('    *   *')
             print('    *  *')
@@ -33,7 +33,7 @@ while True:
             print('   *****')
             print('    ***')
     if d == 2:
-        def bawi():
+        def bawi ():
             print('')
             print('')
             print('')
