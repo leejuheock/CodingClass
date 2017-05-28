@@ -63,6 +63,10 @@ while True:
     if d == 0:
         print('게임이 끝납니다')
         break
+
+    if 3 < d or d < 1:
+        print('잘못 입력하셧습니다.')
+        continue
     print ('제가 낸 것')
     display(a)    
     
@@ -72,15 +76,10 @@ while True:
     if a == d:
         print('비겻다')
     if (a == 1 and d == 2) or (a == 2 and d == 3) or (a == 3 and d == 1 ):
-        print('니가 이겻다')
+        print('당신이 이겻습니다')
     if (a == 2 and d == 1) or (a == 3 and d == 2) or (a == 1 and d == 3):
-        print('내가 이겻다')
-
-    if 4 > d > 0:
-        print('제가 낸 것 %s' % l[a-1] )
-        print('당신이 낸 것 %s' % l[d-1] )
-    else:
-        print('잘못 입력하셧습니다.')
+        print('제가 이겻습니다')
+    
         
 
 
