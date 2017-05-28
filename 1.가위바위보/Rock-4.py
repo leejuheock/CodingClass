@@ -5,6 +5,39 @@ print('가위바위보 게임입니다')
 
 l = ['가위','바위','보']
 
+def gawi():
+    print('    *    *')
+    print('    *   *')
+    print('    *  *')
+    print('    * *')
+    print('    ***')
+    print('   ******')
+    print(' ********')
+    print('   *****')
+    print('    ***')
+
+def bawi():
+    print('')
+    print('')
+    print('')
+    print('')
+    print('    ***')
+    print('   ******')
+    print(' ********')
+    print('   *****')
+    print('    ***')
+
+def bo():
+    print('    *  *  ')
+    print('    *  *  *')
+    print('    *  *  * *')
+    print('    *  * * *')
+    print('*   * * * *')
+    print('**  ******')
+    print(' ********')
+    print('   *****')
+    print('    ***')
+
 while True:
     a = random.randint(1, 3)
     print('')
@@ -21,40 +54,14 @@ while True:
         print('게임이 끝납니다')
         break
 
-    if d == 1:
-        def gawi ():
-            print('    *    *')
-            print('    *   *')
-            print('    *  *')
-            print('    * *')
-            print('    ***')
-            print('   ******')
-            print(' ********')
-            print('   *****')
-            print('    ***')
-    if d == 2:
-        def bawi ():
-            print('')
-            print('')
-            print('')
-            print('')
-            print('    ***')
-            print('   ******')
-            print(' ********')
-            print('   *****')
-            print('    ***')
-    if d == 3:
-        def bo():
-            print('    *  *  ')
-            print('    *  *  *')
-            print('    *  *  * *')
-            print('    *  * * *')
-            print('*   * * * *')
-            print('**  ******')
-            print(' ********')
-            print('   *****')
-            print('    ***')
-  
+    if d or a == 1:
+         gawi()
+         
+    if d or a == 2:
+         bawi()
+            
+    if d or a == 3:
+         bo()
     
     if a == d:
         print('비겻다')
