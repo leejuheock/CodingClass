@@ -54,15 +54,24 @@ while True:
         print('게임이 끝납니다')
         break
 
-    if d or a == 1:
-         gawi()
+    if a == 1:
+        print(gawi()'제가 낸 것')
          
-    if d or a == 2:
-         bawi()
+    if a == 2:
+        print(bawi() '제가 낸 것')
             
-    if d or a == 3:
-         bo()
+    if a == 3:
+        print(bo()'제가 낸 것')
+
+    if d == 1:
+        print (gawi()'당신이 낸 것 ')
+
+    if d == 2:
+        print (bawi()'당신이 낸 것')
     
+    if d == 3:
+        print (bo() '당신이 낸 것')
+        
     if a == d:
         print('비겻다')
     if (a == 1 and d == 2) or (a == 2 and d == 3) or (a == 3 and d == 1 ):
