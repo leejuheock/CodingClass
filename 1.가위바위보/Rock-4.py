@@ -38,6 +38,16 @@ def bo():
     print('   *****')
     print('    ***')
 
+def display(x):
+    if x == 1:
+        gawi()
+
+    if x == 2:
+        bawi()
+
+    if x == 3:
+        bo()
+        
 while True:
     a = random.randint(1, 3)
     print('')
@@ -54,23 +64,10 @@ while True:
         print('게임이 끝납니다')
         break
     print ('제가 낸 것')
-    if a == 1:
-        gawi()
-         
-    if a == 2:
-        bawi()
-            
-    if a == 3:
-        bo()
-    print('당신이 낸 것 ')
-    if d == 1:
-        gawi()
-
-    if d == 2:
-        bawi()
+    display(a)    
     
-    if d == 3:
-        bo()
+    print('당신이 낸 것 ')
+    display(d)
         
     if a == d:
         print('비겻다')
