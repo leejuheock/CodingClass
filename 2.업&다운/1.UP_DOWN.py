@@ -2,7 +2,32 @@ import random
 
 a = random.randint(1,100)
 
-l = []
+l = ['업','다운']
+
+def up():
+    print('l')
+    print('l    )  ')
+    print('l     )  ')
+    print('        ) ')
+    print('l*** ****)')
+    print('l ********* )')
+    print(' **********   )')
+    print('ㅡㅡㅡㅡㅡㅡㅡㅡ')
+
+def down():
+    print('-----------')
+    print(' *********!')
+    print(' *********')
+    print('**** ****!')
+    print('l  _!')
+    
+    print('_')
+
+def dsplay(x):
+    if x == 1:
+        up()
+    if x == 2:
+        dawn()
 
 while True:
 
@@ -22,9 +47,9 @@ while True:
         else:
             l.append(c)
         if a > c:
-            print('업')
+            up()
         if a < c:
-            print('다운')
+            down()
         if a == c:
             print('맞았습니다.')
             print('%d번만에 맞히셧습니다' % len(l))
