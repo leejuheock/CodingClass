@@ -2,32 +2,26 @@ import random
 
 a = random.randint(1,100)
 
-l = ['업','다운']
+l = []
 
 def up():
     print('l')
     print('l    )  ')
     print('l     )  ')
-    print('        ) ')
+    print('       ) ')
     print('l*** ****)')
     print('l ********* )')
     print(' **********   )')
     print('ㅡㅡㅡㅡㅡㅡㅡㅡ')
 
 def down():
+
     print('-----------')
     print(' *********!')
     print(' *********')
     print('**** ****!')
     print('l  _!')
-    
     print('_')
-
-def dsplay(x):
-    if x == 1:
-        up()
-    if x == 2:
-        dawn()
 
 while True:
 
@@ -52,7 +46,8 @@ while True:
             down()
         if a == c:
             print('맞았습니다.')
-            print('%d번만에 맞히셧습니다' % len(l))
+            print('%d번만에 맞히셧습니다' % len(l
+                                       ))
             break
     else:
         print('오차범위 입니다.1에서 100 중 숫자를 써주세요.')

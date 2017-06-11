@@ -21,17 +21,6 @@ while True:
     if (a == 2 and d == 1) or (a == 3 and d == 2) or (a == 1 and d == 3):
         print('내가 이겻다')
 
-    if a == 1:
-         gawi():
-    print('    *    *')
-    print('    *   *')
-    print('    *  *')
-    print('    * *')
-    print('    ***')
-    print('   ******')
-    print(' ********')
-    print('   *****')
-    print('    ***')
     if a == 2:
         x = '바위'
     if a == 3:
