@@ -1,6 +1,8 @@
 import sys, pygame
 import random
 
+pygame.init()
+
 size = width,height = 1024, 600
 bgcolor = 245, 0, 150
 gravity = 10
