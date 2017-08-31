@@ -1,5 +1,7 @@
+import sys, pygmae
+import random
 
-pygame.init()
+import.init() 
 
 size = width,height = 1024, 600
 bgcolor = 245, 0, 150
