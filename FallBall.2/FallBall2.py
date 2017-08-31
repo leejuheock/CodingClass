@@ -1,5 +1,3 @@
-import sys, pygame
-import random
 
 pygame.init()
 
